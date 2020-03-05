@@ -6,11 +6,14 @@ import { RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
 
+import { DateInputsModule } from '@progress/kendo-angular-dateinputs';
+
 @NgModule({
   imports: [
     CommonModule,
     FormsModule,
     IonicModule,
+    DateInputsModule,
     RouterModule.forChild([
       {
         path: '',
